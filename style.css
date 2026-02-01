@@ -72,6 +72,15 @@
     }
   }
 
+
+  img {
+
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    
+  }
+
   /* FINAL */
   .ending {
     background: #1a1a1a;
