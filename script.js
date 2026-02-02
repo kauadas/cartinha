@@ -28,6 +28,7 @@ setTimeout(() => flower.remove(), 12000);
 window.addEventListener('scroll', () => {
 const rect = flowerSection.getBoundingClientRect();
 if (rect.top < window.innerHeight && rect.bottom > 0) {
+    setTimeout(() => {}, 1000);
     createFlower();
 }
 });
